@@ -210,7 +210,7 @@ footer b{color:var(--sand)}
    f.addEventListener('submit',function(e){
     e.preventDefault();
     m.style.color='var(--gold)';m.textContent='Sending…';
-    fetch('https://formspree.io/f/REPLACE_ID',{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+    fetch('https://formspree.io/f/mlgvyzgd',{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
      .then(function(r){
        if(r.ok){f.reset();m.style.color='var(--sea)';m.textContent='Thanks! I’ll send your benchmark soon. ✓';}
        else{m.style.color='#ff8c66';m.textContent='Something went wrong — email me at waynehavenga71@gmail.com';}
